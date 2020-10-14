@@ -1,0 +1,6 @@
+type: material
+name: Omega Alloy
+description: The fusion of blastanite, sabrumptium and Surge Alloy.
+hardness: 1
+cost: 4
+color:

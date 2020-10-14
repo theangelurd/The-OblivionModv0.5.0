@@ -1,0 +1,6 @@
+type: material
+name: Aprubinite
+description: A rare resource, often found around lakes or wet places.
+hardness: 1
+cost: 3
+color:

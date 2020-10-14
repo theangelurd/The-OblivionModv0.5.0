@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: "Silver Crucible"
+description: "Melts silver down for use in crafting."
+liquidCapacity: 50
+output: {
+  item: vibranite-alloy
+  amount: 1
+}
+size: 2
+hasPower: true
+hasLiquids: true
+craftTime: 10
+updateEffect: smeltsmoke
+consumes: {
+  power: 1
+  item: vibranite, blastanite, lead
+}
+requirements: [
+  lead/1500
+  copper/1200
+  vibranite/1000
+]
+category: crafting
+research: kiln
+idleSound: respawning
+idleSoundVolume: 0.5
+
+

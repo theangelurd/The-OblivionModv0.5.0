@@ -1,0 +1,6 @@
+type: material
+name: Vibranite
+description: A rare resource.
+hardness: 1
+cost: 2
+color:

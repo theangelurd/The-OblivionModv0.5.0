@@ -1,0 +1,47 @@
+type: DoubleTurret
+localizedName: Submachine Blaster
+description: Shoots a blast that can deal large amounts of damage.
+health: 200
+size: 1
+reload: 5
+range: 100
+ammoUseEffect: shellEjectSmall
+inaccuracy: 5
+rotatespeed: 15
+ammo: {
+  vibranite: {
+    speed: 9
+    damage: 25
+    bulletWidth: 9
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 2
+  }
+    copper: {
+    speed: 6
+    damage: 17
+    bulletWidth: 6
+    bulletHeight: 6
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 2
+    }
+      lead: {
+    speed: 7
+    damage: 19
+    bulletWidth: 7
+    bulletHeight: 7
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 2
+      }
+}
+requirements: [
+  vibranite/30
+  silicon/20
+  lead/50
+  copper/40
+]
+category: turret
+research: duo

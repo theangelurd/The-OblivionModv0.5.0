@@ -1,0 +1,39 @@
+name: Cracked Mountains
+description: A new zone with revenants lurking around the cracks.
+loadout: basicFoundation
+startingItems: [
+  copper/200
+  lead/100
+]
+conditionWave: 15
+launchPeriod: 10
+requirements: [
+  {
+    type: ZoneWave
+    zone: groundZero
+    wave: 15
+  }
+  {
+    type: Unlock
+    block: kiln
+  }
+  {
+    type: Unlock
+    block: silicon-smelter
+  }
+  {
+    type: Unlock
+    block: graphite-press
+  }
+  {
+    type: Unlock
+    block: combustion-generator
+  }
+]
+resources: [
+  copper
+  lead
+  coal
+  sand
+  titanium
+]

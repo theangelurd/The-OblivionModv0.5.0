@@ -1,0 +1,6 @@
+type: material
+name: Sabrumptium Alloy
+description: The alloy of aprubinite and sabrumptium.
+hardness: 1
+cost: 3.5
+color:

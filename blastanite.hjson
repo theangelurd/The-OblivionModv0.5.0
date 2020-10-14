@@ -1,0 +1,6 @@
+type: material
+name: Blastanite
+description: A highly flammable ore.
+hardness: 2
+cost: 2.5
+color: dcd16b

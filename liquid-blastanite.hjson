@@ -1,0 +1,6 @@
+name: Molen Blastanite
+description: A very hot liquid that can easily melt stuff.
+temperature: 160
+viscosity: 1.2
+effect: melting
+color: #ff8700

@@ -1,0 +1,53 @@
+type: DoubleTurret
+localizedName: Submachine Blaster
+description: Shoots a blast that can deal large amounts of damage.
+health: 200
+size: 1
+reload: 5
+range: 100
+ammoUseEffect: shellEjectSmall
+inaccuracy: 5
+rotatespeed: 15
+ammo: {
+    copper: {
+    speed: 9
+    damage: 9
+    bulletWidth: 9
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 3
+    }
+      lead: {
+    speed: 10
+    damage: 15
+    bulletWidth: 15
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 4
+    }
+    graphite: {
+    speed: 10
+    damage: 22
+    bulletWidth: 18
+    bulletHeight: 16
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 3
+    }
+    silicon: {
+    speed: 14
+    damage: 14
+    bulletWidth: 9
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 3
+    }
+}
+requirements: [
+  copper/45
+]
+category: turret
+research: hail

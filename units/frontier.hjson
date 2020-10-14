@@ -1,0 +1,15 @@
+type: groundUnit
+name: Frontier
+description: A slow but powerful unit.
+speed: 0.2
+flying: false
+health: 320
+engineOffset: 5.5
+range: 160
+weapon: {
+  name: frontier-blaster
+  length: 1.5
+  reload: 6
+  alternate: true
+  bullet: basicBulletType
+}

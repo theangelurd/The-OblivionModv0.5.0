@@ -1,0 +1,6 @@
+name: Vibranite Coolant
+description: This Coolant is an alloy of Molten Vibranite and Cryofluid.
+temperature: 3
+viscosity: 0.2
+effect: freezing
+color: #00ff9a
